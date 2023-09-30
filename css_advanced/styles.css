@@ -1,0 +1,179 @@
+@font-face {
+  font-family: SourceSansPro-Regular;
+  font-style: normal;
+  font-weight: 400;
+  src: url(./images/SourceSansPro-Regular.otf);
+}
+
+@font-face {
+  font-family: SourceSansPro-Black;
+  font-style: normal;
+  font-weight: 900;
+  src: url(./images/SourceSansPro-Black.otf);
+}
+
+@font-face {
+  font-family: SourceSansPro-Bold;
+  font-style: normal;
+  font-weight: 700;
+  src: url(./images/SourceSansPro-Bold.otf);
+}
+
+@font-face {
+  font-family: SourceSansPro-SemiBold;
+  font-style: normal;
+  font-weight: 600;
+  src: url(./images/SourceSansPro-SemiBold.otf);
+}
+
+@font-face {
+  font-family: SourceSansPro-BoldIt;
+  src: url(./images/SourceSansPro-BoldIt.otf);
+}
+
+body {
+  max-width: 1440px;
+  display: flex;
+}
+
+main {
+  background: url(./images/Object.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+header {
+  color: #FFF;
+  font-family: "SourceSansPro-Regular";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 2%;
+}
+
+h1 {
+  display: block;
+  margin: 0;
+  font-weight: none;
+}
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 1440px;
+}
+
+.nav-logo {
+  margin-left: 175px;
+  margin-right: 1105;
+  margin-top: 101;
+  margin-bottom: 924;
+  width: 167.016px;
+  height: 29.461px;
+  flex-shrink: 0;
+}
+.nav-menu {
+  color: #FFF;
+  text-decoration: none;
+  display: inline-flex;
+  height: 15px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 52px;
+  flex-shrink: 0;
+  margin-right: 169px;
+}
+.banner_section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.block_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: #FFF;
+  margin-top: 150px;
+}
+
+.block_1_text {
+  font-family: SourceSansPro-Bold;
+  text-align: center;
+  font-size: 120px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.livelaughlove {
+  display: flex;
+  max-width: 300px;
+  font-family: SourceSansPro-SemiBold;
+  font-size: 20px;
+  justify-content: space-between;
+  margin-left: 597px;
+}
+
+button {
+  justify-content: center;
+  width: 162px;
+  height: 44px;
+  border-radius: 22px;
+  background: #C271FF;
+  color: #FFF;
+  font-family: SourceSansPro-SemiBold;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  margin-left: 645px;
+  margin-top: 38px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);;
+}
+
+.block_2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: #FFF;
+  margin-top: 150px;
+}
+
+.headshots {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 87px;
+}
+
+.pics {
+  border-radius: 50%;
+}
+
+.quote_section {
+  background: url(./images/quote_background.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: #FFF;
+  margin-top: 150px;
+  width: 1440px;
+  height: 392px;
+  flex-shrink: 0;
+}

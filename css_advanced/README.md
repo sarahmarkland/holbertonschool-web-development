@@ -113,7 +113,6 @@ Example:
 Example:
 
 ```css
-Copy code
 #my-element {
     color: blue;
 }
