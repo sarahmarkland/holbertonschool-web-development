@@ -31,15 +31,23 @@
   src: url(./images/SourceSansPro-BoldIt.otf);
 }
 
+@font-face {
+  font-family: SourceSansPro-Light;
+  src: url(./images/SourceSansPro-Light.otf);
+}
+
 body {
-  max-width: 1440px;
-  display: flex;
+  font-family: SourceSansPro-Regular;
+
+  width: 1440px;
+  margin: auto;
+  margin-top: 5%;
 }
 
 main {
   background: url(./images/Object.png);
-  background-size: auto;
   background-repeat: no-repeat;
+  background-color: #071629;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -64,8 +72,26 @@ header {
 
 h1 {
   display: block;
-  margin: 0;
+  margin-left: 382px;
   font-weight: none;
+}
+
+h2 {
+  font-family: SourceSansPro-Bold;
+}
+
+h3 {
+  color: #FFF;
+  text-align: center;
+  font-family: SourceSansPro-Bold;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 27px; /* 150% */
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
 
 p {
@@ -100,6 +126,7 @@ nav {
   margin-right: 169px;
 }
 .banner_section {
+  font-family: SourceSansPro-Regular;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -110,7 +137,7 @@ nav {
   flex-direction: column;
   justify-content: space-evenly;
   color: #FFF;
-  margin-top: 150px;
+  margin-top: 165px;
 }
 
 .block_1_text {
@@ -149,6 +176,9 @@ button {
 }
 
 .block_2 {
+  font-family: SourceSansPro-Light;
+  font-style: italic;
+  font-weight: 400;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -164,16 +194,32 @@ button {
 
 .pics {
   border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  border-radius: 50%;
 }
 
 .quote_section {
+  font-family: SourceSansPro-Regular;
   background: url(./images/quote_background.png);
   display: flex;
-  flex-direction: column;
   justify-content: space-evenly;
   color: #FFF;
   margin-top: 150px;
   width: 1440px;
-  height: 392px;
+  height: 542px;
   flex-shrink: 0;
+}
+
+.quote_img {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  margin-left: 143px;
+  align-items: center;
 }
