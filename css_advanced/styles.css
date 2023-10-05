@@ -293,7 +293,7 @@ img {
   margin-top: 87px;
   color: #071629;
   width: 1228px;
-  height: 450px;
+  height: 550px;
   flex-shrink: 0;
 } /* the h1 settings have left-margin set to 382*/
 
@@ -389,4 +389,46 @@ img {
 .author_block h3 {
   color: #C271FF;
   margin-left: 10px;
+}
+
+.membership_section {
+  display: flex;
+  flex-direction: column;
+  height: 502px;
+  width: 1440px;
+  background-color: #071629;
+}
+
+.membership_section p {
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+  margin-top: 70px;
+}
+
+.membership_text {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+
+.membership_section img {
+  border-radius: 0%;
+}
+
+.membership_smilies {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  width: 255px;
+}
+
+.membership_smilies h2 {
+  margin-top: 20px;
+  font-size: 26px;
+}
+
+.membership_smilies p {
+  font-size: 14px;
+  text-align: center;
 }
