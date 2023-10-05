@@ -442,7 +442,7 @@ img {
   flex-direction: column;
   /* justify-content: baseline; */
   align-items: center;
-  height: 502px;
+  /* height: 502px; */
   width: 1440px;
   background-color: #FFF;
   color: #071629;
@@ -485,4 +485,37 @@ img {
   justify-content: space-evenly;
   width: 1228px;
   color:#071629;
+}
+
+footer {
+  background-color: #071629;
+  display: flex;
+  justify-content: space-between;
+  width: 1440px;
+  height: 249px;
+}
+
+footer div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1000px;
+  height: 249px;
+  margin-left: 200px;
+}
+
+footer img {
+  display: flex;
+  justify-content: left;
+  border-radius: 0%;
+}
+
+.socials {
+  display: flex;
+  justify-content: right;
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
 }
