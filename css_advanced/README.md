@@ -1,7 +1,7 @@
 Readme for CSS Advanced
 
 Thanks for checking out my CSS project <3
-My website is [LIVE](sarahmarkland.github.io)
+My website is [LIVE](https://sarahmarkland.github.io/holbertonschool-web-development/)
 # General
 ## What is CSS
 Cascading Style Sheet or CSS is a stylesheet language that dictates how your website elements should look like. You can control the design, layout, font, and color of your website content by embedding a CSS file into your HTML document.
