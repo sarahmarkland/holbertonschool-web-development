@@ -131,6 +131,10 @@ blockquote {
   flex-shrink: 0;
 }
 
+.nav-logo img {
+  border-radius: 0%;
+}
+
 .nav-menu {
   color: #FFF;
   text-decoration: none;
@@ -431,4 +435,28 @@ img {
 .membership_smilies p {
   font-size: 14px;
   text-align: center;
+}
+
+.FAQ_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+  height: 502px;
+  width: 1440px;
+  background-color: #FFF;
+}
+
+.row1 {
+  display: flex;
+  /* justify-content: space-evenly; */
+  width: 1228px;
+  color:#071629;
+}
+
+.row2 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1228px;
+  color:#071629;
 }
